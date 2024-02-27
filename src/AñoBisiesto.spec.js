@@ -28,4 +28,15 @@ describe("AñoBisiesto", () => {
   it("Debería retornar true para el año 2016", () => {
     expect(esBisiesto(2016)).toEqual(true);
   });
+  it("Debería retornar false para el año 2017", () => {
+    expect(esBisiesto(2017)).toEqual(false);
+  });
+
+  it("Debería retornar false para el año 2018", () => {
+    expect(esBisiesto(2018)).toEqual(false);
+  });
+
+  it("Debería retornar false para el año 2019", () => {
+    expect(esBisiesto(2019)).toEqual(false);
+  });
 });

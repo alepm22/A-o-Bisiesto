@@ -1,12 +1,12 @@
-export function esBisiesto(ano) {
-    if (ano % 400 === 0) {
+export function esBisiesto(anio) {
+    if (anio % 400 === 0) {
       return true;
     }
   
-    if (ano % 100 === 0) {
+    if (anio % 100 === 0) {
       return false;
     }
   
-    return ano % 4 === 0;
+    return anio % 4 === 0;
   }
   
